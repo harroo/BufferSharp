@@ -44,7 +44,7 @@ namespace BufferSharp {
 
             return val;
         }
-        public System.UInt32 GetUInt16 () { CheckBuffers();
+        public System.UInt16 GetUInt16 () { CheckBuffers();
 
             System.UInt32 val = BitConverter.ToUInt16(byteBuffer, index); index += 2;
 
